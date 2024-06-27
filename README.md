@@ -9,7 +9,7 @@ The program uses four processes, each with a different function.
 ![so_proj2 drawio](https://github.com/KamilBorkowskiYB/Linux_inter-process_communication/assets/142045004/3b42a57e-8b16-43c3-8882-73f17877dfc8)
   
 ## Commands
-As stated earlier, only process 3 listens to users signals, so all signals should be adressed to process 3 id.
+Only process 3 listens to users signals, so all signals should be adressed to process 3 id.
 
 SIGSTP pauses the program, can be also input via keyboard using ctrl + z
 ```bash
